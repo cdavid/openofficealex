@@ -1,0 +1,3 @@
+ManifestVersion: 1.0
+RegistrationClassName: info.kwarc.sissi.ooalex.impl.RegistrationHandler
+Class-Path: lib\gson-1.7.1-sources.jar lib\gson-1.7.1.jar lib\jetty-all-8.0.4.v20111024.jar lib\log4j-1.2.16.jar lib\sissicommon.jar 
