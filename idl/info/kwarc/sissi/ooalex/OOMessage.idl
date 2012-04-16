@@ -1,0 +1,22 @@
+#ifndef __info_kwarc_sissi_ooalex_oomessage_idl__
+#define __info_kwarc_sissi_ooalex_oomessage_idl__
+
+module info { module kwarc { module sissi { module ooalex { 	
+
+	interface OOMessage {
+        short getReqId();
+	     void setReqId([in] short reqId);
+       string getAction();
+         void setAction([in] string action);
+       string getData();
+         void setData([in] string text);
+	   string getSemObjID();
+		 void setSemObjID([in] string semObjID);
+	    short getSemObjPositionX();
+		 void setSemObjPositionX([in] short semObjPositionX);
+	    short getSemObjPositionY();
+		 void setSemObjPositionY([in] short semObjPositionY);
+	};
+
+ }; }; }; };
+#endif

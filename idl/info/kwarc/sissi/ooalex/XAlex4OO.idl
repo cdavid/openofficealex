@@ -1,0 +1,18 @@
+#ifndef __info_kwarc_sissi_ooalex_xalex4oo_idl__
+#define __info_kwarc_sissi_ooalex_xalex4oo_idl__
+
+#include <info/kwarc/sissi/ooalex/OOMessage.idl>
+
+module info { module kwarc { module sissi { module ooalex { 	
+
+	interface XAlex4OO {
+		void sendSallyRequest([in] OOMessage msg);
+        OOMessage composeMessage([in] short reqid, [in] string action, [in] string text);
+	    void loadSemanticData([in] string semanticData);
+		string saveSemanticData();
+		string stopSally();        
+	};
+
+ }; }; }; };
+
+#endif

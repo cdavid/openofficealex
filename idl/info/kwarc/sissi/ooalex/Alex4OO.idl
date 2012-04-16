@@ -1,0 +1,13 @@
+#ifndef __info_kwarc_sissi_ooalex_alex4oo_idl__
+#define __info_kwarc_sissi_ooalex_alex4oo_idl__
+
+#include <info/kwarc/sissi/ooalex/XAlex4OO.idl>
+
+module info { module kwarc { module sissi { module ooalex { 	
+
+	service Alex4OO : info::kwarc::sissi::ooalex::XAlex4OO {
+
+	};
+
+ }; }; }; };
+#endif

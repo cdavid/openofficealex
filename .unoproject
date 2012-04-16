@@ -1,0 +1,12 @@
+#UNO project configuration file
+#Mon Apr 16 00:45:00 CEST 2012
+project.srcdir=/source
+regclassname=info.kwarc.sissi.ooalex.impl.RegistrationHandler
+javaversion=java4
+project.sdk=340m1
+project.ooo=LibreOffice 3.4
+project.implementation=impl
+project.build=build
+project.language=Java
+project.prefix=info.kwarc.sissi.ooalex
+project.idl=/idl
